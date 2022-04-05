@@ -24,7 +24,7 @@ const Review = () => {
             <div className="row row-cols-1 row-cols-md-3 x-gutter">
 
                 {
-                    reviews.slice(0,length).map(r => <ReviewCard review = {r}></ReviewCard>)
+                    reviews.slice(0,length).map(r => <ReviewCard key={r.id} review = {r}></ReviewCard>)
 
                 }
             </div>
