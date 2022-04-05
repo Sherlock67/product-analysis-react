@@ -19,21 +19,31 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Review
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Dashboard
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  About
                 </a>
               </li>
            
