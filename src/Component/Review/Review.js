@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useReview from '../../hook/useReview';
-import Home from '../Home/Home';
+
 import ReviewCard from '../ReviewCard/ReviewCard';
 import './Review.css'
 const Review = () => {
