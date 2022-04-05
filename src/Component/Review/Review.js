@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../hook/useReview';
 import Home from '../Home/Home';
 import ReviewCard from '../ReviewCard/ReviewCard';
@@ -8,10 +9,15 @@ const Review = () => {
     const path = window.location.pathname;
     const lastPath = path.substring(path.lastIndexOf('/') + 1);
     let length = reviews.length;
-    if(lastPath === 'home' || !lastPath){
+    let seeMore ;
+    
+    if(lastPath === 'home' ||  !lastPath){
         length = 3;
+        seeMore = <Link className="my-5 btn btn-primary"to="/review">See All</Link>
+
     }
     
+
     return (
 
         <div className='container my-5'>
@@ -19,8 +25,12 @@ const Review = () => {
 
                 {
                     reviews.slice(0,length).map(r => <ReviewCard review = {r}></ReviewCard>)
+
                 }
             </div>
+            {
+                seeMore
+            }
         </div>
     );
 };
