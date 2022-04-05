@@ -1,45 +1,46 @@
 [
     {
         "id" : 1,
-        "name" : "Arafat Ulllah",
+        "name" : "Khosru Vai",
         "rating" : "4",
-        "comments" : "This product is my fav"
+        "comments" : "খুবই ভালো। এই সেলারের জিনিস ১০০% সঠিকভাবে চায়না থেকে আসে। এর আগেই নিয়েছি। ধন্যবাদ সেলারকে এত্ত সুন্দর কিউট মনিটর ডেলিভারি দেওয়ার জন্য।"
     },
     {
         "id" : 2,
-        "name" : "Arafat Ulllah",
-        "rating" : "4",
-        "comments" : "This product is my fav"
+        "name" : "Mushfiqul Alam",
+        "rating" : "4.5",
+        "comments" : "Nice product. condition good. package good. quick delivery. overall happy."
     },
     {
         "id" : 3,
+        
         "name" : "Arafat Ulllah",
         "rating" : "4",
         "comments" : "This product is my fav"
     },
     {
         "id" : 4,
-        "name" : "Arafat Ulllah",
-        "rating" : "4",
-        "comments" : "This product is my fav"
+        "name" : "Rahim Mia",
+        "rating" : "3",
+        "comments" : "দাম হিসেবে মিনিটরটি অনেক ভালো, কেউ নিতে চাইলে নিতে পারেন। ২৮ তারিখে অর্ডার দিয়ে ৩০ তারিখেই পেয়েছি। শুধু একটা ডেড পিক্সেল পাওয়া গেছে, আর সব ঠিক আছে।"
     },
     {
         "id" : 5,
-        "name" : "Arafat Ulllah",
-        "rating" : "4",
+        "name" : "Rafeed Bhuiyan",
+        "rating" : "2",
         "comments" : "This product is my fav"
     },
     {
         "id" : 6,
-        "name" : "Arafat Ulllah",
-        "rating" : "4",
-        "comments" : "This product is my fav"
+        "name" : "Baki Billlah",
+        "rating" : "3.5",
+        "comments" : "Product is well, I will use it my youtube channel Remind School."
     },
     {
         "id" : 7,
-        "name" : "Arafat Ulllah",
+        "name" : "Mizan Rahman",
         "rating" : "4",
-        "comments" : "This product is my fav"
+        "comments" : "Very co-operative seller, answer of my questions.Genuine Product and super fast delivery within next day."
     }
 
 
